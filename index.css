@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header
+{
+    background-image: url(./background2.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    /* background-size: cover; */
+}
+nav
+{
+    background-color: rgba(123, 14, 123, 0.4);
+    padding: 10px;
+}
+nav img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin: 6px 85px;
+}
+nav ul
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 24px;
+}
+nav ul li
+{
+    margin-right: 60px;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: white;
+    padding: 0px 25px;
+    font-family: cursive;
+}
+.clear
+{
+    clear: both;
+}
+.back_head
+{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.back_head h3
+{
+    letter-spacing: 10px;
+    font-family:sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+.back_head p
+{
+    color: blue;
+    letter-spacing: 3px;
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: xx-large;
+}
+.back_head a
+{
+    margin: 25px;
+    text-decoration: none;
+    font-family:sans-serif;
+    color: white;
+    border-radius: 35px;
+    border: 2px solid white;
+    padding: 12px;
+}
+.back_head a:hover
+{
+    color: blue;
+    background-color: antiquewhite;
+    border: 3px solid blue;
+    padding: 15px;
+}
+.back_head .first-a
+{
+    font-size: 17px;
+    background-color: red;
+}
+.body
+{
+    background-color: rgb(77, 16, 77);
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 700px;
+    padding: 20px;
+    gap: 10px;
+}
+.body img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.one, 
+.two,
+.three,
+.four,
+.five,
+.six
+{
+    background-color: rgb(130, 3, 165);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.one
+{
+    grid-column: 1/ span 2;
+    grid-row: 1/ span 2;
+}
+.two
+{
+    grid-column: 3/ span 3;
+    grid-row: 1/ span 1;
+}
+.three
+{
+    grid-column: 6/ span 1;
+    grid-row: 1/ span 1;
+}
+.four
+{
+    grid-column: 7/ span 3;
+    grid-row: 1/ span 1;
+}
+.five
+{
+    grid-column: 3/ span 4;
+    grid-row: 2/ span 1;
+}
+.six
+{
+    grid-column: 7/ span 3;
+    grid-row: 2/ span 1;
+}
+footer
+{
+    background-color: rgb(58, 1, 58);
+    color: white;
+    text-align: center;
+    font-family:cursive;
+    padding: 30px;
+}
